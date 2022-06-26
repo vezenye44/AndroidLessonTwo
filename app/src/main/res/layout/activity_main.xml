@@ -5,14 +5,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:columnCount="4"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity"
+        android:useDefaultMargins="true">
 
 
     <EditText android:id="@+id/key_data_out"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:layout_columnSpan="4"
-              android:layout_columnWeight="1"/>
+              android:layout_columnWeight="1"
+              android:textSize="@dimen/default_data_out_size"
+              android:gravity="end"/>
 
     <Button android:id="@+id/key_1"
             android:text="@string/key_1"
