@@ -16,4 +16,6 @@
     <string name="key_dot">.</string>
     <string name="key_div">/</string>
     <string name="key_equal">=</string>
+    <string name="key_reset">C</string>
+    <string name="key_not_used"/>
 </resources>

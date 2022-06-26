@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="default_data_out_size">32</dimen>
+    <dimen name="default_data_out_size">42</dimen>
 </resources>
