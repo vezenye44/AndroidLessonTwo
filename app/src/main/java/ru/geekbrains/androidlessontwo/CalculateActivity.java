@@ -70,6 +70,21 @@ public class CalculateActivity extends AppCompatActivity implements CalculateVie
         findViewById(R.id.key_div).setOnClickListener(operateClickListener);
         findViewById(R.id.key_equal).setOnClickListener(operateClickListener);
 
+
+        findViewById(R.id.key_dot).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                presenter.onDotClick();
+            }
+        });
+
+        findViewById(R.id.key_reset).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                presenter.onResetClick();
+            }
+        });
+
     }
 
     @Override
