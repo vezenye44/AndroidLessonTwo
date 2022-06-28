@@ -49,6 +49,27 @@ public class CalculateActivity extends AppCompatActivity implements CalculateVie
         findViewById(R.id.key_7).setOnClickListener(digitClickListener);
         findViewById(R.id.key_8).setOnClickListener(digitClickListener);
         findViewById(R.id.key_9).setOnClickListener(digitClickListener);
+
+        Map<Integer, Operate> operators = new HashMap<>();
+        operators.put(R.id.key_add, Operate.ADD);
+        operators.put(R.id.key_sub, Operate.SUB);
+        operators.put(R.id.key_mul, Operate.MUL);
+        operators.put(R.id.key_div, Operate.DIV);
+        operators.put(R.id.key_equal, Operate.EQUAL);
+
+        View.OnClickListener operateClickListener = new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                presenter.onOperateClick(operators.get(view.getId()));
+            }
+        };
+
+        findViewById(R.id.key_add).setOnClickListener(operateClickListener);
+        findViewById(R.id.key_sub).setOnClickListener(operateClickListener);
+        findViewById(R.id.key_mul).setOnClickListener(operateClickListener);
+        findViewById(R.id.key_div).setOnClickListener(operateClickListener);
+        findViewById(R.id.key_equal).setOnClickListener(operateClickListener);
+
     }
 
     @Override
