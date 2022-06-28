@@ -8,6 +8,6 @@
                                                   android:scaleY="3"
                                                   android:src="@mipmap/ic_calculate_foreground"/>
 
-    <include layout="@layout/activity_main"/>
+    <include layout="@layout/activity_calculate"/>
 
 </FrameLayout>
