@@ -47,4 +47,9 @@ public class CalculatePresenterImpl implements CalculatePresenter {
     public void onResetClick() {
 
     }
+
+    @Override
+    public void onEqualClick() {
+
+    }
 }

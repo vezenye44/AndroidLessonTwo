@@ -10,4 +10,6 @@ public interface CalculatePresenter {
 
     void onResetClick();
 
+    void onEqualClick();
+
 }

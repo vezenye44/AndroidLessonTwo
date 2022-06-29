@@ -5,5 +5,4 @@ public enum Operate {
     SUB,
     MUL,
     DIV,
-    EQUAL
 }
