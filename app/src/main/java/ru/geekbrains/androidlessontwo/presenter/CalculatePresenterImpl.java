@@ -1,6 +1,8 @@
-package ru.geekbrains.androidlessontwo;
+package ru.geekbrains.androidlessontwo.presenter;
 
+import ru.geekbrains.androidlessontwo.model.Operate;
 import ru.geekbrains.androidlessontwo.model.SimpleCalculate;
+import ru.geekbrains.androidlessontwo.ui.CalculateView;
 
 public class CalculatePresenterImpl implements CalculatePresenter {
 

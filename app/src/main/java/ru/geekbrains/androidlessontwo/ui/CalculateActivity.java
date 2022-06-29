@@ -1,9 +1,12 @@
-package ru.geekbrains.androidlessontwo;
+package ru.geekbrains.androidlessontwo.ui;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
+import ru.geekbrains.androidlessontwo.presenter.CalculatePresenter;
+import ru.geekbrains.androidlessontwo.model.Operate;
+import ru.geekbrains.androidlessontwo.R;
 
 import java.util.HashMap;
 import java.util.Map;

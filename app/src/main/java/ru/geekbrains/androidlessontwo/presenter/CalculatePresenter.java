@@ -1,4 +1,6 @@
-package ru.geekbrains.androidlessontwo;
+package ru.geekbrains.androidlessontwo.presenter;
+
+import ru.geekbrains.androidlessontwo.model.Operate;
 
 public interface CalculatePresenter {
 

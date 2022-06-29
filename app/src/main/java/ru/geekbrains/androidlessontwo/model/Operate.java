@@ -1,4 +1,4 @@
-package ru.geekbrains.androidlessontwo;
+package ru.geekbrains.androidlessontwo.model;
 
 public enum Operate {
     ADD,

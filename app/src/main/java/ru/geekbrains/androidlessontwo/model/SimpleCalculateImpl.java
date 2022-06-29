@@ -1,7 +1,5 @@
 package ru.geekbrains.androidlessontwo.model;
 
-import ru.geekbrains.androidlessontwo.Operate;
-
 public class SimpleCalculateImpl implements SimpleCalculate{
     @Override
     public double calculation(double arg01, double arg02, Operate operate) {

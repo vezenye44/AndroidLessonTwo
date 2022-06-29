@@ -5,7 +5,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:columnCount="4"
-        tools:context=".CalculateActivity"
+        tools:context=".ui.CalculateActivity"
         android:useDefaultMargins="true">
 
 
