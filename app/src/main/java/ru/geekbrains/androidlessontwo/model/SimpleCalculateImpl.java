@@ -11,8 +11,10 @@ public class SimpleCalculateImpl implements SimpleCalculate{
             case MUL:
                 return arg01 * arg02;
             case DIV:
+                if (arg02 == 0) return 0.0;
                 return arg01 / arg02;
+            default:
+                return 0.0;
         }
-        return 0.0;
     }
 }
