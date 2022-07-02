@@ -18,4 +18,14 @@
     <string name="key_equal">=</string>
     <string name="key_reset">C</string>
     <string name="key_not_used"/>
+    <string name="key_function_one">ᴨ</string>
+    <string name="key_function_two">e</string>
+    <string name="key_function_three">sin(x)</string>
+    <string name="key_function_four">cos(x)</string>
+    <string name="key_function_five">tg(x)</string>
+    <string name="key_function_six">ctg(x)</string>
+    <string name="key_function_seven">x^²</string>
+    <string name="key_function_eight">x^³</string>
+    <string name="key_function_nine">√x</string>
+    <string name="key_function_ten">x!</string>
 </resources>
