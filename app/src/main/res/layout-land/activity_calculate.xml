@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="6"
+        tools:context=".ui.CalculateActivity"
+        android:useDefaultMargins="true">
+
+
+    <TextView android:id="@+id/key_data_out"
+              android:layout_width="0dp"
+              android:layout_height="0dp"
+              android:layout_columnSpan="6"
+              android:layout_columnWeight="1"
+              android:textSize="@dimen/default_data_out_size"
+              android:gravity="end|bottom"
+              android:layout_rowWeight="2"
+              android:layout_rowSpan="2"/>
+
+    <Button android:text="@string/key_not_used"
+            android:hint="@string/key_function_one"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_function_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:text="@string/key_not_used"
+            android:hint="@string/key_function_two"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_function_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:id="@+id/key_reset"
+            android:text="@string/key_reset"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_feature_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:text="@string/key_not_used"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_feature_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:text="@string/key_not_used"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_feature_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:id="@+id/key_add"
+            android:text="@string/key_add"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_operation_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:text="@string/key_not_used"
+            android:hint="@string/key_function_three"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_function_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:text="@string/key_not_used"
+            android:hint="@string/key_function_four"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_function_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:id="@+id/key_1"
+            android:text="@string/key_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_numb_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:id="@+id/key_2"
+            android:text="@string/key_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_numb_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:id="@+id/key_3"
+            android:text="@string/key_3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_numb_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:id="@+id/key_sub"
+            android:text="@string/key_sub"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_operation_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:text="@string/key_not_used"
+            android:hint="@string/key_function_five"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_function_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:text="@string/key_not_used"
+            android:hint="@string/key_function_six"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_function_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:id="@+id/key_4"
+            android:text="@string/key_4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_numb_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:id="@+id/key_5"
+            android:text="@string/key_5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_numb_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:id="@+id/key_6"
+            android:text="@string/key_6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_numb_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:id="@+id/key_mul"
+            android:text="@string/key_mul"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_operation_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:text="@string/key_not_used"
+            android:hint="@string/key_function_seven"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_function_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:text="@string/key_not_used"
+            android:hint="@string/key_function_eight"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_function_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:id="@+id/key_7"
+            android:text="@string/key_7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_numb_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:id="@+id/key_8"
+            android:text="@string/key_8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_numb_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:id="@+id/key_9"
+            android:text="@string/key_9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_numb_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:id="@+id/key_equal"
+            android:text="@string/key_equal"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="2"
+            android:layout_rowSpan="2"
+            android:backgroundTint="@color/default_operation_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:text="@string/key_not_used"
+            android:hint="@string/key_function_nine"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_function_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:text="@string/key_not_used"
+            android:hint="@string/key_function_ten"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_function_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+
+    <Button android:id="@+id/key_0"
+            android:text="@string/key_0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_numb_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:id="@+id/key_dot"
+            android:text="@string/key_dot"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_dot_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <Button android:id="@+id/key_div"
+            android:text="@string/key_div"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/default_operation_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+</GridLayout>
