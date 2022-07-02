@@ -1,10 +1,15 @@
 package ru.geekbrains.androidlessontwo.presenter;
 
+import android.os.Parcel;
+import android.os.Parcelable;
 import ru.geekbrains.androidlessontwo.model.Operate;
 import ru.geekbrains.androidlessontwo.model.SimpleCalculate;
+import ru.geekbrains.androidlessontwo.model.SimpleCalculateImpl;
 import ru.geekbrains.androidlessontwo.ui.CalculateView;
 
-public class CalculatePresenterImpl implements CalculatePresenter {
+import java.io.Serializable;
+
+public class CalculatePresenterImpl  implements CalculatePresenter, Parcelable {
 
     /**
      * Поле - реализация простого калькулятора
@@ -52,9 +57,30 @@ public class CalculatePresenterImpl implements CalculatePresenter {
      */
     private boolean flag = true;
 
+    protected CalculatePresenterImpl(Parcel in) {
+        argument01 = in.readString();
+        argument02 = in.readString();
+        result = in.readString();
+        operate = (Operate) in.readValue(getClass().getClassLoader());
+        flag = in.readByte() != 0;
+    }
+
+    public static final Creator<CalculatePresenterImpl> CREATOR = new Creator<CalculatePresenterImpl>() {
+        @Override
+        public CalculatePresenterImpl createFromParcel(Parcel in) {
+            return new CalculatePresenterImpl(in);
+        }
+
+        @Override
+        public CalculatePresenterImpl[] newArray(int size) {
+            return new CalculatePresenterImpl[size];
+        }
+    };
+
     @Override
-    public void onResume(CalculateView resultView) {
+    public void onResume(SimpleCalculate calculate, CalculateView resultView) {
         this.resultView = resultView;
+        this.calculate = calculate;
         if (flag) {
           if (argument01.equals("")) {
               resultView.showResult(result);
@@ -163,5 +189,19 @@ public class CalculatePresenterImpl implements CalculatePresenter {
         argument01 = ""; //
         argument02 = ""; //
         this.operate = null; // Очищаем операцию
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel parcel, int i) {
+        parcel.writeString(argument01);
+        parcel.writeString(argument02);
+        parcel.writeString(result);
+        parcel.writeValue(operate);
+        parcel.writeByte((byte) (flag ? 1 : 0));
     }
 }
