@@ -3,16 +3,21 @@ package ru.geekbrains.androidlessontwo.ui;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import ru.geekbrains.androidlessontwo.model.SimpleCalculateImpl;
 import ru.geekbrains.androidlessontwo.presenter.CalculatePresenter;
 import ru.geekbrains.androidlessontwo.model.Operate;
 import ru.geekbrains.androidlessontwo.R;
+import ru.geekbrains.androidlessontwo.presenter.CalculatePresenterImpl;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
 public class CalculateActivity extends AppCompatActivity implements CalculateView {
 
+    private static final String CALCULATE_PRESENTER = "presenter";
     private CalculatePresenter presenter;
     private TextView resultView;
 
@@ -22,6 +27,14 @@ public class CalculateActivity extends AppCompatActivity implements CalculateVie
         setContentView(R.layout.activity_calculate);
 
         resultView = findViewById(R.id.key_data_out);
+
+        if (savedInstanceState == null) {
+            presenter = new CalculatePresenterImpl(new SimpleCalculateImpl(), CalculateActivity.this);
+        } else {
+            presenter = (CalculatePresenterImpl) savedInstanceState.getParcelable(CALCULATE_PRESENTER);
+            presenter.onResume(new SimpleCalculateImpl(), this);
+        }
+
 
         Map<Integer, Integer> digits = new HashMap<>();
         digits.put(R.id.key_0, 0);
@@ -92,6 +105,12 @@ public class CalculateActivity extends AppCompatActivity implements CalculateVie
             }
         });
 
+    }
+
+    @Override
+    public void onSaveInstanceState(@NonNull Bundle outState) {
+        outState.putParcelable(CALCULATE_PRESENTER, (CalculatePresenterImpl) presenter);
+        super.onSaveInstanceState(outState);
     }
 
     @Override
