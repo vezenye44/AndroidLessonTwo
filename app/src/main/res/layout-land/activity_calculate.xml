@@ -27,8 +27,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_function_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/functionBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:text="@string/key_not_used"
@@ -37,8 +36,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_function_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/functionBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:id="@+id/key_reset"
@@ -47,8 +45,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_feature_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/featureBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:text="@string/key_not_used"
@@ -56,8 +53,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_feature_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/featureBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:text="@string/key_not_used"
@@ -65,8 +61,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_feature_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/featureBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:id="@+id/key_add"
@@ -75,8 +70,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_operation_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/operateBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:text="@string/key_not_used"
@@ -85,8 +79,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_function_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/functionBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:text="@string/key_not_used"
@@ -95,8 +88,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_function_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/functionBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:id="@+id/key_1"
@@ -105,8 +97,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_numb_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/digitBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:id="@+id/key_2"
@@ -115,8 +106,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_numb_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/digitBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:id="@+id/key_3"
@@ -125,8 +115,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_numb_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/digitBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:id="@+id/key_sub"
@@ -135,8 +124,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_operation_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/operateBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:text="@string/key_not_used"
@@ -145,8 +133,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_function_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/functionBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:text="@string/key_not_used"
@@ -155,8 +142,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_function_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/functionBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:id="@+id/key_4"
@@ -165,8 +151,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_numb_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/digitBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:id="@+id/key_5"
@@ -175,9 +160,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_numb_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
-
+            style="?attr/digitBtnStyle"/>
     <com.google.android.material.button.MaterialButton
             android:id="@+id/key_6"
             android:text="@string/key_6"
@@ -185,8 +168,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_numb_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/digitBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:id="@+id/key_mul"
@@ -195,8 +177,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_operation_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/operateBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:text="@string/key_not_used"
@@ -205,8 +186,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_function_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/functionBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:text="@string/key_not_used"
@@ -215,8 +195,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_function_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/functionBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:id="@+id/key_7"
@@ -225,8 +204,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_numb_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/digitBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:id="@+id/key_8"
@@ -235,8 +213,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_numb_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/digitBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:id="@+id/key_9"
@@ -245,8 +222,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_numb_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/digitBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:id="@+id/key_equal"
@@ -256,8 +232,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="2"
             android:layout_rowSpan="2"
-            android:backgroundTint="@color/default_operation_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/operateBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:text="@string/key_not_used"
@@ -266,8 +241,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_function_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/functionBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:text="@string/key_not_used"
@@ -276,8 +250,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_function_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/functionBtnStyle"/>
 
 
     <com.google.android.material.button.MaterialButton
@@ -287,8 +260,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_numb_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/digitBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:id="@+id/key_dot"
@@ -297,8 +269,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_dot_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/dotBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
             android:id="@+id/key_div"
@@ -307,7 +278,6 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="@color/default_operation_button_color"
-            android:textSize="@dimen/default_button_text_size"/>
+            style="?attr/operateBtnStyle"/>
 
 </GridLayout>
