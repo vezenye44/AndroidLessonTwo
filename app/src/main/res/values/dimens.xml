@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_data_out_size">32sp</dimen>
+    <dimen name="default_button_text_size">22sp</dimen>
+    <dimen name="default_colum_count">4</dimen>
+    <dimen name="text_view_colum_span">4</dimen>
+    <dimen name="text_view_colum_weight">1</dimen>
+    <dimen name="text_view_row_span">2</dimen>
+    <dimen name="text_view_row_weight">2</dimen>
+    <dimen name="equal_btn_row_weight">2</dimen>
+    <dimen name="equal_btn_row_span">2</dimen>
+    <dimen name="btn_colum_weight">1</dimen>
+    <dimen name="btn_row_weight">1</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_colum_count">6</dimen>
+    <dimen name="text_view_colum_span">6</dimen>
+    <dimen name="text_view_colum_weight">1</dimen>
+    <dimen name="equal_btn_row_weight">2</dimen>
+    <dimen name="equal_btn_row_span">2</dimen>
+</resources>

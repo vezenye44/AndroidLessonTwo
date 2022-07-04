@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="@dimen/default_colum_count"
+        tools:context=".ui.CalculateActivity"
+        android:useDefaultMargins="true">
+
+
+    <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/key_data_out"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_columnSpan="@dimen/text_view_colum_span"
+            android:layout_columnWeight="@dimen/text_view_colum_weight"
+            android:textSize="@dimen/default_data_out_size"
+            android:gravity="end|bottom"
+            android:layout_rowWeight="@dimen/text_view_row_span"
+            android:layout_rowSpan="@dimen/text_view_row_weight"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_reset"
+            android:text="@string/key_reset"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_columnWeight="@dimen/btn_colum_weight"
+            android:layout_rowWeight="@dimen/btn_row_weight"
+            android:backgroundTint="@color/default_feature_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:text="@string/key_not_used"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_columnWeight="@dimen/btn_colum_weight"
+            android:layout_rowWeight="@dimen/btn_row_weight"
+            android:backgroundTint="@color/default_feature_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:text="@string/key_not_used"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_columnWeight="@dimen/btn_colum_weight"
+            android:layout_rowWeight="@dimen/btn_row_weight"
+            android:backgroundTint="@color/default_feature_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_add"
+            android:text="@string/key_add"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_columnWeight="@dimen/btn_colum_weight"
+            android:layout_rowWeight="@dimen/btn_row_weight"
+            android:backgroundTint="@color/default_operation_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_1"
+            android:text="@string/key_1"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_columnWeight="@dimen/btn_colum_weight"
+            android:layout_rowWeight="@dimen/btn_row_weight"
+            android:backgroundTint="@color/default_numb_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_2"
+            android:text="@string/key_2"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_columnWeight="@dimen/btn_colum_weight"
+            android:layout_rowWeight="@dimen/btn_row_weight"
+            android:backgroundTint="@color/default_numb_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_3"
+            android:text="@string/key_3"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_columnWeight="@dimen/btn_colum_weight"
+            android:layout_rowWeight="@dimen/btn_row_weight"
+            android:backgroundTint="@color/default_numb_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_sub"
+            android:text="@string/key_sub"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_columnWeight="@dimen/btn_colum_weight"
+            android:layout_rowWeight="@dimen/btn_row_weight"
+            android:backgroundTint="@color/default_operation_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_4"
+            android:text="@string/key_4"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_columnWeight="@dimen/btn_colum_weight"
+            android:layout_rowWeight="@dimen/btn_row_weight"
+            android:backgroundTint="@color/default_numb_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_5"
+            android:text="@string/key_5"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_columnWeight="@dimen/btn_colum_weight"
+            android:layout_rowWeight="@dimen/btn_row_weight"
+            android:backgroundTint="@color/default_numb_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_6"
+            android:text="@string/key_6"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_columnWeight="@dimen/btn_colum_weight"
+            android:layout_rowWeight="@dimen/btn_row_weight"
+            android:backgroundTint="@color/default_numb_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_mul"
+            android:text="@string/key_mul"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_columnWeight="@dimen/btn_colum_weight"
+            android:layout_rowWeight="@dimen/btn_row_weight"
+            android:backgroundTint="@color/default_operation_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_7"
+            android:text="@string/key_7"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_columnWeight="@dimen/btn_colum_weight"
+            android:layout_rowWeight="@dimen/btn_row_weight"
+            android:backgroundTint="@color/default_numb_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_8"
+            android:text="@string/key_8"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_columnWeight="@dimen/btn_colum_weight"
+            android:layout_rowWeight="@dimen/btn_row_weight"
+            android:backgroundTint="@color/default_numb_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_9"
+            android:text="@string/key_9"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_columnWeight="@dimen/btn_colum_weight"
+            android:layout_rowWeight="@dimen/btn_row_weight"
+            android:backgroundTint="@color/default_numb_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_equal"
+            android:text="@string/key_equal"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_columnWeight="@dimen/btn_colum_weight"
+            android:layout_rowWeight="@dimen/equal_btn_row_weight"
+            android:layout_rowSpan="@dimen/equal_btn_row_span"
+            android:backgroundTint="@color/default_operation_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_0"
+            android:text="@string/key_0"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_columnWeight="@dimen/btn_colum_weight"
+            android:layout_rowWeight="@dimen/btn_row_weight"
+            android:backgroundTint="@color/default_numb_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_dot"
+            android:text="@string/key_dot"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_columnWeight="@dimen/btn_colum_weight"
+            android:layout_rowWeight="@dimen/btn_row_weight"
+            android:backgroundTint="@color/default_dot_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_div"
+            android:text="@string/key_div"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_columnWeight="@dimen/btn_colum_weight"
+            android:layout_rowWeight="@dimen/btn_row_weight"
+            android:backgroundTint="@color/default_operation_button_color"
+            android:textSize="@dimen/default_button_text_size"/>
+
+</GridLayout>
