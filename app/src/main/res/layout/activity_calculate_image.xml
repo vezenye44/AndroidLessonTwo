@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="match_parent"
+                                                  android:layout_height="match_parent"
+                                                  android:scaleY="3"
+                                                  android:src="@mipmap/ic_calculate_foreground"/>
+
+    <include layout="@layout/activity_calculate"/>
+
+</FrameLayout>

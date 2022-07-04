@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="digitBtnStyle" format="reference"/>
+    <attr name="operateBtnStyle" format="reference"/>
+    <attr name="featureBtnStyle" format="reference"/>
+    <attr name="functionBtnStyle" format="reference"/>
+    <attr name="dotBtnStyle" format="reference"/>
+</resources>
