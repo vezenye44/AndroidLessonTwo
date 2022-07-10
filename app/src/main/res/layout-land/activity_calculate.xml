@@ -4,6 +4,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:columnCount="6"
         tools:context=".ui.CalculateActivity"
         android:useDefaultMargins="true">
@@ -56,12 +57,16 @@
             style="?attr/featureBtnStyle"/>
 
     <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_select_theme"
             android:text="@string/key_not_used"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            style="?attr/featureBtnStyle"/>
+            style="?attr/featureBtnStyle"
+            app:iconGravity="textEnd"
+            app:iconSize="32sp"
+            app:icon="@drawable/ic_baseline_color_lens_24"/>
 
     <com.google.android.material.button.MaterialButton
             android:id="@+id/key_add"
