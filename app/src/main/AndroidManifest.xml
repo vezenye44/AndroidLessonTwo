@@ -10,6 +10,9 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.MyCalculateTheme">
         <activity
+                android:name=".ui.SelectThemeActivity"
+                android:exported="true"/>
+        <activity
                 android:name=".ui.CalculateActivity"
                 android:exported="true">
             <intent-filter>
