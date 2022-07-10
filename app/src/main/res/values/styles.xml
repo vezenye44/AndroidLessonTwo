@@ -24,4 +24,26 @@
     <style name="ButtonStyle.Dot">
         <item name="backgroundTint">@color/default_dot_button_color</item>
     </style>
+
+    <style name="ButtonStyle.Digit.Floral">
+        <item name="backgroundTint">@color/floral_numb_button_color</item>
+    </style>
+
+    <style name="ButtonStyle.Operate.Floral">
+        <item name="backgroundTint">@color/floral_operation_button_color</item>
+    </style>
+
+    <style name="ButtonStyle.Feature.Floral">
+        <item name="backgroundTint">@color/floral_feature_button_color</item>
+    </style>
+
+    <style name="ButtonStyle.Function.Floral">
+        <item name="backgroundTint">@color/floral_function_button_color</item>
+    </style>
+
+    <style name="ButtonStyle.Dot.Floral">
+        <item name="backgroundTint">@color/floral_dot_button_color</item>
+    </style>
+
+
 </resources>

@@ -15,5 +15,13 @@
     <color name="default_background_color">#FFF8E1</color>
     <color name="default_stroke_color">#FFECB3</color>
     <color name="default_status_bar_color">#66BB6A</color>
+    <color name="floral_numb_button_color">#94a291</color>
+    <color name="floral_operation_button_color">#364037</color>
+    <color name="floral_feature_button_color">#d27c54</color>
+    <color name="floral_dot_button_color">#bbccde</color>
+    <color name="floral_function_button_color">#ebd0a0</color>
+    <color name="floral_background_color">#ebe2dd</color>
+    <color name="floral_stroke_color">#ebd0a0</color>
+    <color name="floral_status_bar_color">#65879f</color>
 
 </resources>

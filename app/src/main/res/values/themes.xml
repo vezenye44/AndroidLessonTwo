@@ -35,4 +35,22 @@
         <item name="dotBtnStyle">@style/ButtonStyle.Dot</item>
 
     </style>
+
+    <style name="Theme.MyCalculateTheme.Floral" >
+
+        <item name="colorPrimaryVariant">@color/floral_status_bar_color</item>
+
+        <item name="strokeColor">@color/floral_stroke_color</item>
+
+        <item name="android:colorBackground">@color/floral_background_color</item>
+
+        <item name="android:textColor">@color/black</item>
+
+        <item name="digitBtnStyle">@style/ButtonStyle.Digit.Floral</item>
+        <item name="operateBtnStyle">@style/ButtonStyle.Operate.Floral</item>
+        <item name="featureBtnStyle">@style/ButtonStyle.Feature.Floral</item>
+        <item name="functionBtnStyle">@style/ButtonStyle.Function.Floral</item>
+        <item name="dotBtnStyle">@style/ButtonStyle.Dot.Floral</item>
+
+    </style>
 </resources>
