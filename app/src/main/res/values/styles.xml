@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonStyle" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textSize">@dimen/default_button_text_size</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ButtonStyle.Digit">
+        <item name="backgroundTint">@color/default_numb_button_color</item>
+    </style>
+
+    <style name="ButtonStyle.Operate">
+        <item name="backgroundTint">@color/default_operation_button_color</item>
+    </style>
+
+    <style name="ButtonStyle.Feature">
+        <item name="backgroundTint">@color/default_feature_button_color</item>
+    </style>
+
+    <style name="ButtonStyle.Function">
+        <item name="backgroundTint">@color/default_function_button_color</item>
+    </style>
+
+    <style name="ButtonStyle.Dot">
+        <item name="backgroundTint">@color/default_dot_button_color</item>
+    </style>
+
+    <style name="ButtonStyle.Digit.Floral">
+        <item name="backgroundTint">@color/floral_numb_button_color</item>
+    </style>
+
+    <style name="ButtonStyle.Operate.Floral">
+        <item name="backgroundTint">@color/floral_operation_button_color</item>
+    </style>
+
+    <style name="ButtonStyle.Feature.Floral">
+        <item name="backgroundTint">@color/floral_feature_button_color</item>
+    </style>
+
+    <style name="ButtonStyle.Function.Floral">
+        <item name="backgroundTint">@color/floral_function_button_color</item>
+    </style>
+
+    <style name="ButtonStyle.Dot.Floral">
+        <item name="backgroundTint">@color/floral_dot_button_color</item>
+    </style>
+
+
+</resources>

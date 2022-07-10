@@ -8,9 +8,12 @@
             android:label="@string/app_name"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
-            android:theme="@style/Theme.AndroidLessonTwo">
+            android:theme="@style/Theme.MyCalculateTheme">
         <activity
-                android:name=".MainActivity"
+                android:name=".ui.SelectThemeActivity"
+                android:exported="true"/>
+        <activity
+                android:name=".ui.CalculateActivity"
                 android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

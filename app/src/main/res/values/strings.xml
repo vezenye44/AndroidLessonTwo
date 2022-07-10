@@ -1,3 +1,34 @@
 <resources>
     <string name="app_name">AndroidLessonTwo</string>
+    <string name="key_1">1</string>
+    <string name="key_2">2</string>
+    <string name="key_3">3</string>
+    <string name="key_add">+</string>
+    <string name="key_4">4</string>
+    <string name="key_5">5</string>
+    <string name="key_6">6</string>
+    <string name="key_sub">-</string>
+    <string name="key_7">7</string>
+    <string name="key_8">8</string>
+    <string name="key_9">9</string>
+    <string name="key_mul">*</string>
+    <string name="key_0">0</string>
+    <string name="key_dot">.</string>
+    <string name="key_div">/</string>
+    <string name="key_equal">=</string>
+    <string name="key_reset">C</string>
+    <string name="key_not_used"/>
+    <string name="key_function_one">ᴨ</string>
+    <string name="key_function_two">e</string>
+    <string name="key_function_three">sin(x)</string>
+    <string name="key_function_four">cos(x)</string>
+    <string name="key_function_five">tg(x)</string>
+    <string name="key_function_six">ctg(x)</string>
+    <string name="key_function_seven">x^²</string>
+    <string name="key_function_eight">x^³</string>
+    <string name="key_function_nine">√x</string>
+    <string name="key_function_ten">x!</string>
+    <string name="name_default_theme">Default Theme</string>
+    <string name="name_floral_theme">Floral Theme</string>
+
 </resources>
