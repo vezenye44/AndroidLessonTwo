@@ -28,4 +28,7 @@
     <string name="key_function_eight">x^³</string>
     <string name="key_function_nine">√x</string>
     <string name="key_function_ten">x!</string>
+    <string name="name_default_theme">Default Theme</string>
+    <string name="name_floral_theme">Floral Theme</string>
+
 </resources>
